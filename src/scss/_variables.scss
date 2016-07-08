@@ -1,0 +1,45 @@
+//variables
+
+// =================================
+// typography
+// =================================
+
+$font-size-base                : 16;
+$font-size-base-px             : $font-size-base * 1px;
+$font-size-base-narrow         : $font-size-base - 2;
+$font-size-base-narrow-px      : $font-size-base-narrow * 1px;
+
+$leading-base                  : 1.4;
+$line-height-base              : round($font-size-base * $leading-base); // 20 * 1.4
+$baseline                      : $line-height-base * 1px;
+
+// Font stacks
+$font-family-sans             : Helvetica, Arial, sans-serif;
+$font-family-serif            : Georgia, "Times New Roman", Times, serif;
+$font-family-mono             : Menlo, Monaco, "Courier New", monospace;
+$Markella 					  : "Markella", sans-serif;
+
+
+$simple-line-font-path        : "../fonts/";
+$simple-line-font-family      : "simple-line-icons";
+$simple-line-icon-prefix      : "icon-";
+
+$font-family-base             : $font-family-sans;
+$font-family-alt              : $font-family-serif;
+
+
+// =================================
+// Color palette
+// =================================
+
+// Generic colors
+$blue                         : #288ad6;
+$green                        : #16c98d;
+$red                          : #fa5e5b;
+$yellow                       : #ffba3f;
+$orange                       : #e67e22;
+$pink                         : #ff708e;
+$purple                       : #8e44ad;
+$gray                         : #e6e6e6;
+$hover-grey					  : #f5f5f5;
+$black						  : #111111;
